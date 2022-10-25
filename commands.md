@@ -17,7 +17,7 @@ dotnet clean
 dotnet restore
 ```
 
-### solution/project restore
+### update Entity Framework Tools to given version
 ```console
 dotnet tool update --global dotnet-ef --version 6.0.9
 ```
