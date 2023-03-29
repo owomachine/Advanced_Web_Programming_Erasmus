@@ -1,9 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+
+
+
   <ItemGroup>
-    <ProjectReference Include="..\SchoolRegister.Services\SchoolRegister.Services.csproj" />
-    <ProjectReference Include="..\SchoolRegister.Web\SchoolRegister.Web.csproj" />
+    <ProjectReference Include="..\SchoolRegister.Model\SchoolRegister.Model.csproj" />
   </ItemGroup>
+
+
+
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
